@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using RecetaTipicaRD.Application.Contracts;
 using RecetaTipicaRD.Application.Services;
+using RecetaTipicaRD.Infrastructure.Test;
 using RecetaTipicaRD.Infrastructure.Contracts;
 using RecetaTipicaRD.Infrastructure.Data;
 using RecetaTipicaRD.Infrastructure.Repositories;
@@ -25,7 +26,12 @@ builder.Services.AddScoped<IUserService, UserService>();
 var app = builder.Build();
 
 //Seed the database with initial data
-
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<RecetaTipicaRDContext>();
+    await dbContext.Database.MigrateAsync();
+    await DbInitializer.SeedAsync(dbContext);
+}
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
