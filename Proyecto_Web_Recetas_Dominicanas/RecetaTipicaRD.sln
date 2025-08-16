@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36202.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecetaTipicaRD.API", "..\..\..\Documents\GitHub\RecetaTipicaRD-\RecetaTipicaRD.API\RecetaTipicaRD.API.csproj", "{028F207F-1918-489C-9234-AE85571F6B5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecetaTipicaRD.Domain", "..\..\..\Documents\GitHub\RecetaTipicaRD-\RecetaTipicaRD.Domain\RecetaTipicaRD.Domain.csproj", "{3E587897-30D0-4E81-B286-EADB59C44A4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecetaTipicaRD.Infrastructure", "..\..\..\Documents\GitHub\RecetaTipicaRD-\RecetaTipicaRD.Infrastructure\RecetaTipicaRD.Infrastructure.csproj", "{C843202C-59D7-4FC0-A0BF-3B9D37F1BA74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecetaTipicaRD.Application", "..\..\..\Documents\GitHub\RecetaTipicaRD-\RecetaTipicaRD.Application\RecetaTipicaRD.Application.csproj", "{69641FCB-20DB-4A15-AE1B-00D069C6DD26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{028F207F-1918-489C-9234-AE85571F6B5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{028F207F-1918-489C-9234-AE85571F6B5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{028F207F-1918-489C-9234-AE85571F6B5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{028F207F-1918-489C-9234-AE85571F6B5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E587897-30D0-4E81-B286-EADB59C44A4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E587897-30D0-4E81-B286-EADB59C44A4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E587897-30D0-4E81-B286-EADB59C44A4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E587897-30D0-4E81-B286-EADB59C44A4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C843202C-59D7-4FC0-A0BF-3B9D37F1BA74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C843202C-59D7-4FC0-A0BF-3B9D37F1BA74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C843202C-59D7-4FC0-A0BF-3B9D37F1BA74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C843202C-59D7-4FC0-A0BF-3B9D37F1BA74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69641FCB-20DB-4A15-AE1B-00D069C6DD26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69641FCB-20DB-4A15-AE1B-00D069C6DD26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69641FCB-20DB-4A15-AE1B-00D069C6DD26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69641FCB-20DB-4A15-AE1B-00D069C6DD26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28CEC2D9-DABE-4577-BAD5-E76561EB68C4}
+	EndGlobalSection
+EndGlobal
