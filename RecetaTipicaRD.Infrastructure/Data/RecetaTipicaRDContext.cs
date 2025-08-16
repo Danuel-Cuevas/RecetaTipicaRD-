@@ -3,9 +3,9 @@ using RecetaTipicaRD.Domain.Entities;
 
 namespace RecetaTipicaRD.Infrastructure.Data
 {
-    public class RecetaTipicaRDContext: DbContext
+    public class AppDbContext : DbContext
     {
-        public RecetaTipicaRDContext(DbContextOptions<RecetaTipicaRDContext> options) : base(options)
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
         }
 

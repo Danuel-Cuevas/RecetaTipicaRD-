@@ -6,4 +6,17 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RecetaTipicaRD.Application\RecetaTipicaRD.Application.csproj" />
+    <ProjectReference Include="..\RecetaTipicaRD.Domain\RecetaTipicaRD.Domain.csproj" />
+    <ProjectReference Include="..\RecetaTipicaRD.Infrastructure\RecetaTipicaRD.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
